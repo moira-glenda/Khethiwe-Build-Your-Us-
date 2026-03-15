@@ -8,9 +8,112 @@
       content="Khethiwe is a premium relationship app for deeper connection, thoughtful rituals, and meaningful daily moments."
     />
     <title>Khethiwe — Deeper Connection, Daily</title>
+    <link rel="stylesheet" href="./styles.css" />
   </head>
   <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.tsx"></script>
+    <div class="page-bg">
+      <header class="section-shell top-space">
+        <nav class="glass nav">
+          <p class="brand">Khethiwe</p>
+          <a href="#download" class="download-link">Download</a>
+        </nav>
+      </header>
+
+      <main class="main-shell">
+        <section class="section-shell hero-grid">
+          <div>
+            <p class="eyebrow">Relationship app for modern love</p>
+            <h1>Deeper connection, designed with intention.</h1>
+            <p class="lead">
+              Khethiwe is a premium relationship app designed to help people connect more deeply through thoughtful
+              questions, shared rituals, love notes, planning, reflection, and meaningful daily moments.
+            </p>
+            <div class="store-buttons" id="hero-store-buttons"></div>
+          </div>
+          <div class="phone-stack" id="hero-phone-stack"></div>
+        </section>
+
+        <section class="section-shell split-grid">
+          <div>
+            <p class="eyebrow">App overview</p>
+            <h2>A guided space for intentional connection.</h2>
+            <p class="body-text">
+              Khethiwe is built for the way real relationships evolve. Use it as a couple to stay emotionally aligned,
+              or in solo mode to build self-awareness and communicate with more clarity.
+            </p>
+          </div>
+          <div class="overview-phones" id="overview-phones"></div>
+        </section>
+
+        <section class="section-shell">
+          <p class="eyebrow">Core features</p>
+          <h2>Everything you need to nurture closeness with depth.</h2>
+          <div class="card-grid" id="features-grid"></div>
+        </section>
+
+        <section class="section-shell">
+          <div class="glass big-panel">
+            <p class="eyebrow">What makes Khethiwe different</p>
+            <h2>Not just conversation. True emotional bonding.</h2>
+            <div class="point-grid" id="difference-points"></div>
+          </div>
+        </section>
+
+        <section class="section-shell">
+          <p class="eyebrow">Question showcase</p>
+          <h2>Prompts that open the right conversations.</h2>
+          <div class="stack" id="category-stack"></div>
+        </section>
+
+        <section class="section-shell">
+          <p class="eyebrow">Reviews</p>
+          <h2>Loved by couples and thoughtful individuals.</h2>
+          <div class="review-grid" id="reviews-grid"></div>
+        </section>
+
+        <section class="section-shell">
+          <p class="eyebrow">Screenshots & experience</p>
+          <h2>A calm, luxurious interface made for emotional focus.</h2>
+          <div class="preview-grid" id="preview-grid"></div>
+        </section>
+
+        <section id="download" class="section-shell">
+          <div class="cta-panel">
+            <p class="eyebrow">Ready to begin</p>
+            <h2>Bring intention back to your connection.</h2>
+            <p class="body-text center-text">
+              Download Khethiwe and experience daily moments of emotional depth, warmth, and meaningful partnership.
+            </p>
+            <div class="store-buttons center" id="footer-store-buttons"></div>
+          </div>
+        </section>
+      </main>
+
+      <footer class="section-shell footer-shell">
+        <div>
+          <p class="footer-title">Khethiwe</p>
+          <p class="footer-text">A premium relationship companion for deeper conversations and shared rituals.</p>
+        </div>
+        <div>
+          <p class="footer-heading">Navigation</p>
+          <ul class="footer-list">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Features</a></li>
+            <li><a href="#">Questions</a></li>
+            <li><a href="#download">Download</a></li>
+          </ul>
+        </div>
+        <div>
+          <p class="footer-heading">Store & developer</p>
+          <ul class="footer-list">
+            <li><a href="#">Google Play</a></li>
+            <li><a href="#">App Store</a></li>
+            <li>Developed by <span class="developer-name">Your Name — Independent Developer</span></li>
+          </ul>
+        </div>
+      </footer>
+    </div>
+
+    <script src="./script.js"></script>
   </body>
 </html>

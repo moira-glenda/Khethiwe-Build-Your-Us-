@@ -37,6 +37,11 @@ h1 { font-size: clamp(2rem, 6vw, 3.8rem); line-height: 1.1; margin: .75rem 0 1re
 h2 { font-size: clamp(1.6rem, 4vw, 2.35rem); margin: .65rem 0 1rem; }
 .eyebrow { color: var(--caramel); letter-spacing: .22em; text-transform: uppercase; font-size: .72rem; margin: 0; }
 .lead, .body-text { color: var(--beige); line-height: 1.65; }
+.hero-khethiwe {
+  font-family: "Italianno", cursive;
+  font-size: 1.25em;
+  letter-spacing: 0.02em;
+}
 
 .hero-grid, .split-grid { display: grid; gap: 1.5rem; }
 @media (min-width: 900px) {

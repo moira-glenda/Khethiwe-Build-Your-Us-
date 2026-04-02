@@ -1,4 +1,5 @@
 import PhoneMock from './components/PhoneMock';
+import PhoneScreenshot from './components/PhoneScreenshot';
 import StoreButtons from './components/StoreButtons';
 import type { Feature, QuestionCategory, Testimonial } from './components/types';
 
@@ -161,16 +162,12 @@ export default function App() {
                 <StoreButtons />
               </div>
             </div>
-            <div className="relative flex justify-center gap-4">
+            <div className="relative flex justify-center lg:justify-end">
               <div className="pointer-events-none absolute inset-0 -z-10 m-auto h-60 w-60 rounded-full bg-copper/20 blur-3xl" />
-              <div className="mt-8 hidden sm:block">
-                <PhoneMock title="Tonight's Reflection" subtitle="For you" lines={['How did you feel loved today?', 'What do you need tomorrow?']} />
+              <div className="flex flex-wrap items-start justify-center gap-4 lg:justify-end">
+                <PhoneScreenshot src="/screenshots/values-principles.svg" alt="Values and principles screen" className="hidden sm:block" />
+                <PhoneScreenshot src="/screenshots/journey-entry.svg" alt="Journey entry screen" className="mt-8" />
               </div>
-              <PhoneMock
-                title="Daily Bond"
-                subtitle="For both of you"
-                lines={['Question #184', 'When did you feel closest this week?', 'Share your answer →']}
-              />
             </div>
           </div>
         </section>
